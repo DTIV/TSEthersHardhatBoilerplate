@@ -135,7 +135,7 @@ function App() {
       <div className="app-wrap">
         <Header />
         <div className="main-wrap">
-          <div className="title"><h2>MetaMask Connection</h2></div>
+          <div className="title"><h2>MetaMask Connection Hello</h2></div>
           <ConnectButton connecting={connecting} connected={connected} connect={Connect} />
           <Account account={getCurrentAccount}/>
           <State connected={connected}/>
